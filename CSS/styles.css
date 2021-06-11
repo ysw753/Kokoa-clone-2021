@@ -6,13 +6,20 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+
+@import "components/badge.css";
+
 /*Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
+  /*내가 임의로 넣은 값*/
+  min-height: 1200px;
 }
+
 .main-screen {
-  padding: 0px var(--horizontal-space: 25px);
+  padding: 0px var(--horizontal-space);
 }
