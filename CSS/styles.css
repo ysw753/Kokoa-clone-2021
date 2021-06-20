@@ -9,6 +9,8 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
+
 
 /*Screens*/
 @import "screens/login.css";
@@ -20,8 +22,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
-  /*내가 임의로 넣은 값*/
-  min-height: 1200px;
+ 
 }
 
 .main-screen {
