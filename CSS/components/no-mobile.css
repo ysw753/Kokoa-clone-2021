@@ -1,17 +1,18 @@
 #no-mobile{
     width: 100vw;
     height: 100vh;
-    background-color: var(--yellow);
+    background-color: black;
     position: absolute;
     z-index: 99;
     top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
     font-size: 32px;
-
+    animation: bigscreen 0.8s ease-in-out forwards infinite ;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:645px) {
     #no-mobile{
         display: none;
     }
@@ -19,5 +20,19 @@
 body {
     margin: 0;
     height: 100%;
-    overflow: hidden;
+   
+}
+@keyframes bigscreen{
+    0%{
+        font-size: 32px;
+        color:rgba(255,255,255,1);
+    }
+    50%{
+        font-size: 35px;
+        color:rgba(255,255,255,255);
+    }
+    100%{
+        font-size: 32px;
+        color:rgba(255,255,255,255);
+    }
 }

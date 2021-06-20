@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: rgb(129, 127, 127);
   padding: 20px 50px;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
   box-sizing: border-box;
@@ -54,4 +54,10 @@
 }
 .nav__btn:last-child {
   animation-delay: 0.8s;
+}
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }

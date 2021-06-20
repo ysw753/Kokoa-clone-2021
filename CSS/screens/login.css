@@ -8,6 +8,7 @@
 }
 
 .welcome-header__title {
+  text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 25px;
 }
@@ -27,18 +28,19 @@
   font-size: 18px;
   margin-bottom: 25px;
 }
+
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   transition: border-color 0.3s ease-in-out;
+  background-color: rgb(58, 57, 57);
+  height:50px;
 }
-#login-form input::placeholder {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
+
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: white;
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: rgb(189, 188, 188);
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;

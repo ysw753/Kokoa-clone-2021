@@ -1,7 +1,11 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
+  
 }
-
+.user-component span,i{
+  color: white;
+}
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -23,7 +27,9 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.5);
+  color:white;
+  ;
+;
 }
 .user-component__avatar--xl {
   width: 80px;
@@ -48,3 +54,11 @@
   margin-bottom: 10px;
   display: block;
 }
+a{
+  text-decoration: none;
+  text-decoration-line:none ;
+}
+a:link { color: red; text-decoration: none;}
+a:visited { color: white; text-decoration: none;}
+a:hover { color: rgb(193, 193, 199); text-decoration: none;}
+

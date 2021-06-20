@@ -9,8 +9,11 @@
 }
 .icon-row__icons i {
   font-size: 35px;
+  border: 1px white;
+  
 }
 
 .icon-row__icons span {
   margin-top: 18px;
+  
 }
