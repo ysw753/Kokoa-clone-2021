@@ -26,6 +26,7 @@
   opacity: 0.6;
 }
 .open-post {
+  padding-bottom: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,4 +87,3 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
-
